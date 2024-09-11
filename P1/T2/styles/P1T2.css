@@ -32,6 +32,8 @@ h3 {
     margin: 20px auto;
     padding: 20px;
     text-align: justify;
+    max-width: 900px;
+
 }
 
 .DatPer {
