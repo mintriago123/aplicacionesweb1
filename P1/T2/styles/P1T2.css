@@ -20,30 +20,46 @@ h2 {
     margin: 0.5em 0;
 }
 
-.DatPer, .EstdRea, .ExpLab {
+.DatPer {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     padding: 20px;
     max-width: 800px;
-    text-align:justify;
+    text-align: justify;
 }
 
 .fotopersonal {
     border-radius: 50%;
     margin-bottom: 20px;
-    float: right;;
+    float: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #524848;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #8a9276;
 }
 
 @media (max-width: 768px) {
-    .DatPer, .EstdRea, .ExpLab {
+    .DatPer, .EstdRea, .ExpLab, .Caps {
         margin: 10px;
         padding: 15px;
     }
-    
+
     .fotopersonal {
-        width: 200px;
+        width: 150px;
         height: auto;
     }
 }
