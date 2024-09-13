@@ -37,22 +37,17 @@ h3 {
 }
 
 .DatPer {
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    padding: 20px;
-    text-align: justify;
-    max-width: 800px;
     background-color: #e7e1e1;
 
 }
 
-.xp,.estd,.ref,.cap {
+.xp,.estd,.ref,.cap,.DatPer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     padding: 20px;
-    text-align: justify;
+    text-align: justify;    background-color: saddlebrown ;
+    max-width: 800;
     background-color: #cfc5c5;
     max-width: 800px;
 

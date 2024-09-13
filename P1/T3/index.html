@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/styles.css'>
+    <script src='src/index.js'></script>
+</head>
+<body>
+    <div class="tit"><h1>Formulario de registro de clientes</h1> </div>
+        <form class="formulario" action="">
+
+            <label for="dni">Cedula: </label>
+            <input type="tel" id="dni" name="dni" required placeholder="Ingresa tu numero de cedula">
+            <br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required placeholder="Ingresa tu apellido">
+            <br>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ingresa tu nombre">
+            <br>
+
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" required placeholder="Ingresa tu direccion"></textarea>
+            <br>            
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Ingresa tu # de telefono">
+            <br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Ingresa tu Correo electrónico">
+            <br>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad" required placeholder="Ingresa tu ciudad">  
+            <br>
+            <button type="submit" onclick="enviar()">Enviar</button>
+        </form>
+
+</body>
+</html>
