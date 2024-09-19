@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 4</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/css/styles.css'>
+    <script defer src='src/js/scripts.js'></script> <!-- Usa defer para cargar el script después del DOM -->
+</head>
+<body>
+    <div class="container">
+        <div class="enunciado">
+            <h1>Tarea 4: Validación de formularios en JavaScript</h1>
+            <p>En este ejercicio, debes crear una página Web que permita:</p>
+            <ul>
+                <li>El ingreso de 2 números</li>
+                <li>Realice un bucle de 5 iteraciones</li>
+                <ul>
+                    <li>En la PRIMERA iteración: SUMA los 2 valores y muestre el resultado.</li>
+                    <li>En la SEGUNDA iteración: RESTA los 2 valores y muestre el resultado.</li>
+                    <li>En la TERCERA iteración: MULTIPLICA los 2 valores y muestre el resultado.</li>
+                    <li>En la CUARTA iteración: DIVIDE los 2 valores y muestre el resultado.</li>
+                    <li>En la QUINTA iteración: MOD(%) los 2 valores y muestre el resultado.</li>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="calculo">
+            <form id="forma">
+                <label for="num1">Ingrese el primer número:</label>
+                <input type="number" id="num1" name="num1" required>
+                <br>
+                <label for="num2">Ingrese el segundo número:</label>
+                <input type="number" id="num2" name="num2" required>
+                <br>
+                <button type="submit" id="button">Calcular</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
