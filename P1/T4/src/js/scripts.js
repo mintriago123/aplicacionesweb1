@@ -1,15 +1,12 @@
-// Esperar al envío del formulario
 document.getElementById('forma').addEventListener('submit', function(e) {
-    e.preventDefault(); // Evitar que el formulario se envíe y la página se recargue
+    e.preventDefault(); 
 
-    // Obtener los valores de los inputs
     const num1 = parseFloat(document.getElementById('num1').value);
     const num2 = parseFloat(document.getElementById('num2').value);
 
-    // Verificar que ambos valores sean números válidos
-    if (!isNaN(num1) && !isNaN(num2)) {
-        for (let i = 1; i <= 5; i++) {
-            switch (i) {
+
+    for (let i = 1; i <= 5; i++) {
+        switch (i) {
                 case 1:
                     alert(`Iteración 1: La suma es ${num1 + num2}`);
                     break;
@@ -35,7 +32,4 @@ document.getElementById('forma').addEventListener('submit', function(e) {
                     break;
             }
         }
-    } else {
-        alert("Por favor ingrese números válidos.");
-    }
 });
