@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="pagina.php" enctype="multipart/form-data">
+        <br>
+        <input type="text" name="nombre" placeholder="Nombre" size="42" maxlength="30">
+        <br>
+        <input type="text" name="apellido" placeholder="Apellido" size="40" maxlength="80">
+        <br>
+        <input type="number" name="dni" placeholder="DNI" size="40" maxlength="80">
+        <br>
+        <input type="radio" name="sexo" value="Masculino">Masculino <br>
+        <input type="radio" name="sexo" value="Femenino">Femenino
+        <br>
+        <input type="file" name="foto">
+        <br>
+        <input type="checkbox" name="publicidad" value="Publicidad" checked="checked">Enviar Publicidad
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
