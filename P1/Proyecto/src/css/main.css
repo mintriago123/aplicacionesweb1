@@ -1,11 +1,15 @@
+body{
+    background-color: #e2e9e6;
+}
 .body{
-    background-color: #ffffff;
+    background-color: #e2e9e6;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
+    border-color: #e2e9e6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e9bdbd;
+    background-color: #a4e66e;
     color: #fff;
     padding: 10px;
     border-radius: 10px;
@@ -17,8 +21,9 @@ header{
     max-width: 15%;
 }
 .bienvenida{
+    border-color: #e2e9e6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #dbd5d5;
+    background-color: #fff;
     border-radius: 10px;
     color: #000000;
     padding: 10px;
@@ -26,8 +31,9 @@ header{
 }
 
 .servicios{
+    border-color: #e2e9e6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #dbd5d5;
+    background-color: #fff;
     border-radius: 10px;
     color: #000000;
     padding: 10px;
@@ -36,8 +42,9 @@ header{
 }
 
 footer{
+    border-color: #e2e9e6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #dbd5d5;
+    background-color: #797777;
     border-radius: 10px;
     color: #000000;
     padding: 10px;

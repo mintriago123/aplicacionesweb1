@@ -5,7 +5,7 @@
 
 .tab {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #b8cae2;
+    background-color: #4caf50;
     border-radius: 10px;
     overflow: hidden;
     border: 1px solid #ccc;
@@ -14,7 +14,7 @@
 .tab button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: #b8cae2;
+    background-color: #4caf50;
     float: left;
     border: none;
     outline: none;
@@ -26,18 +26,18 @@
 .tab button:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: #8eb5e7;
+    background-color: #316d33;
 }  
 .tab button.active {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: #8eb5e7;
+    background-color: #255226;
 }
 
 .tabcontent {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -48,7 +48,7 @@
 .subtabcontent {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -82,7 +82,7 @@
 .subsubtabcontent {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;

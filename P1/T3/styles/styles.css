@@ -6,7 +6,6 @@
     text-align: center;    
     background-color: #c6dfd9;
     max-width: 800px;
-
 }
 .tit{
     margin: 20px auto;
@@ -32,8 +31,7 @@ input {
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid rgb(156, 134, 134);
-
-  }
+}
 textarea{
     border-radius: 8px; 
     font-family: Arial, sans-serif;
