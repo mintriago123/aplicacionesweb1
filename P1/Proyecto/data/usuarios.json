@@ -1,10 +1,131 @@
 [    
-{
-  "correo": "usuario1@ejemplo.com",
-  "contrasena": "password1",
-  "nombre": "michael",
-  "apellido": "intriago",
-  "direccion": "12345678\n",
-  "rol":"estudiante"
-}
+  {
+    "correo": "usuario1@ejemplo.com",
+    "contrasena": "password1",
+    "nombre": "michael",
+    "apellido": "intriago",
+    "direccion": "12345678\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario2@ejemplo.com",
+    "contrasena": "password2",
+    "nombre": "andrea",
+    "apellido": "perez",
+    "direccion": "87654321\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario3@ejemplo.com",
+    "contrasena": "password3",
+    "nombre": "luis",
+    "apellido": "martinez",
+    "direccion": "11223344\n",
+    "rol":"profesor"
+  },
+  {
+    "correo": "usuario4@ejemplo.com",
+    "contrasena": "password4",
+    "nombre": "juan",
+    "apellido": "gonzalez",
+    "direccion": "55667788\n",
+    "rol":"personal"
+  },
+  {
+    "correo": "usuario5@ejemplo.com",
+    "contrasena": "password5",
+    "nombre": "maria",
+    "apellido": "lopez",
+    "direccion": "33445566\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario6@ejemplo.com",
+    "contrasena": "password6",
+    "nombre": "ana",
+    "apellido": "rodriguez",
+    "direccion": "99887766\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario7@ejemplo.com",
+    "contrasena": "password7",
+    "nombre": "javier",
+    "apellido": "sanchez",
+    "direccion": "22334455\n",
+    "rol":"profesor"
+  },
+  {
+    "correo": "usuario8@ejemplo.com",
+    "contrasena": "password8",
+    "nombre": "pablo",
+    "apellido": "torres",
+    "direccion": "77889900\n",
+    "rol":"personal"
+  },
+  {
+    "correo": "usuario9@ejemplo.com",
+    "contrasena": "password9",
+    "nombre": "carmen",
+    "apellido": "diaz",
+    "direccion": "66554433\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario10@ejemplo.com",
+    "contrasena": "password10",
+    "nombre": "antonio",
+    "apellido": "fernandez",
+    "direccion": "55443322\n",
+    "rol":"profesor"
+  },
+  {
+    "correo": "usuario11@ejemplo.com",
+    "contrasena": "password11",
+    "nombre": "sara",
+    "apellido": "garcia",
+    "direccion": "11224455\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario12@ejemplo.com",
+    "contrasena": "password12",
+    "nombre": "david",
+    "apellido": "moreno",
+    "direccion": "33556677\n",
+    "rol":"profesor"
+  },
+  {
+    "correo": "usuario13@ejemplo.com",
+    "contrasena": "password13",
+    "nombre": "lucia",
+    "apellido": "ruiz",
+    "direccion": "66778899\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario14@ejemplo.com",
+    "contrasena": "password14",
+    "nombre": "jose",
+    "apellido": "alvarez",
+    "direccion": "22335544\n",
+    "rol":"profesor"
+  },
+  {
+    "correo": "usuario15@ejemplo.com",
+    "contrasena": "password15",
+    "nombre": "victoria",
+    "apellido": "jimenez",
+    "direccion": "99882211\n",
+    "rol":"estudiante"
+  },
+  {
+    "correo": "usuario16@ejemplo.com",
+    "contrasena": "password16",
+    "nombre": "fernando",
+    "apellido": "prieto",
+    "direccion": "55442233\n",
+    "rol":"personal"
+  }
 ]
+
