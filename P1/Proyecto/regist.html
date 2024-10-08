@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/forms.css">
+    <script src="src/js/regist.js" defer></script> <!-- Asegúrate de cargar el script con defer -->
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <img src="src/img/cropped-LOGO-1-200x61.png" alt="Bienestar Universitario Uleam">
+        </a>
+    </header>
+    <form method="post" id="miForm">
+        <label>Ingrese su Nombre</label>
+        <br>
+        <input type="text" id="nombre">
+        <br>
+        <label>Ingrese su Apellido</label>
+        <br>
+        <input type="text" id="apellido">
+        <br>
+        <label>Ingrese su correo</label>
+        <br>
+        <input type="email" id="correo">
+        <br>
+        <label>Ingrese su contraseña</label>
+        <br>
+        <input type="password" id="password1">
+        <br>
+        <label>Ingrese su contraseña nuevamente</label>
+        <br>
+        <input type="password" id="password2">
+        <br>
+        <label>Ingrese su direccion</label>
+        <br>
+        <textarea id="direccion"></textarea>
+        <br>
+        <button type="submit" id="btnSend">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[    
+{
+  "correo": "usuario1@ejemplo.com",
+  "contrasena": "password1",
+  "nombre": "michael",
+  "apellido": "intriago",
+  "direccion": "12345678\n",
+  "rol":"estudiante"
+}
+]

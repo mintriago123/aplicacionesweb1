@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/css/main.css">
-    <link rel="stylesheet" href="src/css/forms..css">
+    <link rel="stylesheet" href="src/css/forms.css">
 
 </head>
 <body>
@@ -14,17 +14,16 @@
         <img src="src/img/cropped-LOGO-1-200x61.png" alt="Bienestar Universitario Uleam">
         </a>
     </header>
-    <form action="" method="get">
-        <label>Ingrese su correo</>
-        <br>
-        <input type="email">
-        <br>
-        <label>Ingrese su contraseña</label>
-        <br>
-        <input type="password">
-        <br>
-        <button type="submit" id="button">Enviar</button>
+    <form id="loginForm">
+        <label for="correo">Correo:</label> <br>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <label for="contrasena">Contraseña:</label><br>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+        <button type="submit">Iniciar sesión</button>
         
     </form>
+    <div class="mensaje" id="mensaje"></div>
+    <script src="src/js/jsonmanegent.js"></script>
+
 </body>
 </html>
