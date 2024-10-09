@@ -1,12 +1,10 @@
-function openTab(evt, tabName) { 
+function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
-    
-    // Obtener todas las pestañas y ocultarlas
+
+    // Ocultar todas las pestañas
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-        if (tabcontent[i].style.display === "block") {
-            tabcontent[i].style.display = "none"; // Cerrar la pestaña visible
-        }
+        tabcontent[i].style.display = "none";
     }
 
     // Eliminar la clase "active" de todos los botones de pestañas
@@ -15,7 +13,9 @@ function openTab(evt, tabName) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    // Mostrar la nueva pestaña
+    // Mostrar la pestaña seleccionada
     document.getElementById(tabName).style.display = "block";
+    
+    // Agregar la clase "active" al botón de la pestaña seleccionada
     evt.currentTarget.className += " active";
 }

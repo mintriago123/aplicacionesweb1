@@ -33,6 +33,7 @@ async function validarUsuario(event) {
       loginForm.style.display = 'none'; // Ocultar el formulario de inicio de sesión
       logout.style.display = 'block'; // Mostrar el botón de cerrar sesión
       usuarioInfo.style.display = 'block'; // Mostrar la información del usuario
+      perfil.style.display='block'
       
       // Mostrar la información del usuario en los campos correspondientes
       nombreElement.textContent = `Nombre: ${usuarioValido.nombre}`;

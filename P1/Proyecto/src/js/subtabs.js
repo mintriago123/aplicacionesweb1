@@ -9,7 +9,7 @@ function opensubTab(evt, subtabName){
     }
 
     // Eliminar la clase "active" de todos los botones de sub pestañas
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.getElementsByClassName("subtablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
@@ -30,7 +30,7 @@ function opensubsubTab(evt, subsubtabName){
     }
 
     // Eliminar la clase "active" de todos los botones de sub sub pestañas
-    tablinks = document.getElementsByClassName("tablinks");
+    tablinks = document.getElementsByClassName("subsubtablinks");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
